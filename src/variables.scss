@@ -1,0 +1,30 @@
+// main colour
+$colour1: #5A4F4D;
+$colour2: #F6AD72;
+
+// second main color
+$colour3: rgb(231, 152, 86);
+
+$white: #ffffff;
+$black: #30191991;
+
+$error-colour: #EA4B35;
+$success-colour: rgba(25, 177, 131, 0.705);
+
+$primary-colour: $colour2;
+$secondary-colour: $colour1;
+
+$main-bg-colour: #F3ECE6;
+$link-colour: $colour2;
+$link-hover-colour: $colour3;
+$border-colour: rgb(148, 138, 136);
+$shadow-colour: rgba(90, 89, 88, 0.712);
+$inactive-colour: rgb(206, 178, 155);
+$text-colour: $black;
+
+$screen-mobile-max: 477px;
+$screen-mobile: 478px;
+$screen-tablet-max: 767px;
+$screen-tablet: 768px;
+$screen-tablet-landscape-max: 991px;
+$screen-tablet-landscape: 992px;
