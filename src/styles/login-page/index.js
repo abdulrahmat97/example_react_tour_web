@@ -7,7 +7,10 @@ export default theme => ({
   grow: {
     zIndex: 10,
     color: theme.color.primary,
-    fontSize: '2.4rem',
+    fontSize: '4rem',
+    fontWeight: '400',
+    padding: 0,
+    margin: 0,
     transition: 'color 1.2s ease-in-out',
   },
   logo: {
@@ -23,7 +26,9 @@ export default theme => ({
     margin: '0 auto',
   },
   tittle: {
-    fontSize: theme.typography.fontSize
+    margin: 0,
+    padding: 0,
+    fontSize: '2.4rem',
   },
   formContainer: {
     position: 'absolute',
@@ -81,6 +86,7 @@ export default theme => ({
     height: '100%',
     overflow: 'hidden',
     transition: 'transform 0.6s ease-in-out',
+    zIndex: 4,
   },
   overlayContainerRightPanelActive: {
     position: 'absolute',

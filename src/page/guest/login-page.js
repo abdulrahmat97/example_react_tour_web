@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import {observer} from 'mobx-react'
+import { observable, action } from 'mobx'
 
 import {
   Typography,
@@ -16,6 +18,7 @@ import classNames from 'classnames'
 import styles from 'styles/login-page'
 
 class LoginPage extends Component {
+  @observable inje = ''
   constructor(props) {
     super(props);
 
@@ -101,8 +104,6 @@ class LoginPage extends Component {
                 <i className="fas fa-play" />
                   Lorem
               </Button>
-              <Link to="/">kk
-              </Link>
             </form>
           </Grid>
           <Grid item className={classNames(classes.formContainer,{
@@ -140,6 +141,7 @@ class LoginPage extends Component {
               <TextField
                 label="password"
                 name="password"
+                className={classes.textField}
                 fullWidth
                 variant="outlined"
                 placeholder="Type password"

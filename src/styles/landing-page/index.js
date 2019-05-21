@@ -7,7 +7,10 @@ export default theme => ({
   grow: {
     flexGrow: 1,
     color: theme.color.primary,
-    fontSize: '2.4rem',
+    fontSize: '4rem',
+    fontWeight: '400',
+    padding: 0,
+    margin: 0,
   },
   socialBar: {
     position: 'absolute',

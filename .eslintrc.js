@@ -15,7 +15,9 @@ module.exports = {
     },
     parserOptions: {
         ecmaFeatures: {
-            jsx: true
+            experimentalDecorators: true,
+            experimentalObjectRestSpread: true,
+            jsx: true,
         },
         ecmaVersion: 2018,
         sourceType: 'module'

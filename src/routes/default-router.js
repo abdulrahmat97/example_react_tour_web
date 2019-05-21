@@ -13,8 +13,7 @@ export default class DefaultRouter extends Component {
         <CSSTransition
           key={location.key}
           classNames="fade"
-          unmountOnExit
-          timeout={20}
+          timeout={200}
           appear
         >
           <Switch>

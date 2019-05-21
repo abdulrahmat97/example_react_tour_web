@@ -43,6 +43,8 @@ class LandingPage extends Component {
           </Toolbar>
         </AppBar>
         <div className={classes.container}>
+          <div className={classes.socialBar}>
+          </div>
           <Grid item xs={12} sm={12} md={5} pr={3} className={classes.containerLandingText}>
             <Typography variant="h3" color="secondary">
               {this.state.text}
