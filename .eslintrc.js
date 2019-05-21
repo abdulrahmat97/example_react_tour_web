@@ -10,8 +10,8 @@ module.exports = {
     ],
     parser: 'babel-eslint',
     globals: {
-        Atomics: readonly,
-        SharedArrayBuffer: readonly
+        // Atomics: readonly,
+        // SharedArrayBuffer: readonly
     },
     parserOptions: {
         ecmaFeatures: {
